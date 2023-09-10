@@ -630,7 +630,8 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .comment_area{display: block;
     margin-bottom: 16px;}
 
-.area_text{color:#2E2F4266;
+.area_text{display: block;
+color:#2E2F4266;
 font-size: 12px;
 font-weight: 400;
 line-height: 1.17;
@@ -680,7 +681,7 @@ border: none;}
 > .custom_checkbox{outline: 2px solid #2E2F42;}
 
 
-.label_checkbox{
+.label_checkbox{display: block;
 color: #8E8F99;
 font-size: 12px;
 font-weight: 400;
