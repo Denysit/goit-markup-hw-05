@@ -365,8 +365,6 @@ box-shadow:0px 2px 1px rgba(46, 47, 66, 0.08),
 
 .hero-text{
     max-width: 496px;
-    height: 120px;
-    margin-top: 188px;
     margin-right:auto ;
     margin-left:auto ;}
 
@@ -627,7 +625,7 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment_area{display: block;
+.comment_area{
     margin-bottom: 16px;}
 
 .area_text{display: block;
