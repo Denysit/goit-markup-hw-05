@@ -535,7 +535,7 @@ row-gap: 48px;}
 .modal_window{ position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%) scale(1);
     width: 408px;
     min-height: 584px;
     border-radius: 4px;
@@ -627,7 +627,8 @@ transform: translateY(-50%);
 transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.comment_area{margin-bottom: 16px;}
+.comment_area{display: block;
+    margin-bottom: 16px;}
 
 .area_text{color:#2E2F4266;
 font-size: 12px;
